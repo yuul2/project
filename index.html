@@ -19,20 +19,17 @@
     
 
 <section id="section01">
+
 <!-- nav  -->
 <nav>
     <div class="navbar">
         <ul class="navi">
-            <li><a href="#" class="nav-c">HOME</a></li>
-            <li><a href="#" class="nav-c">INTRODUCE</a></li>
-            <li><a href="#" class="nav-c">PROGRAM</a></li>
-            <li><a href="#" class="nav-c">GUIDE</a></li>
-            <li><a href="#" class="nav-c">INFO</a></li>
+            <li><a href="#section01" class="nav-c">HOME</a></li>
+            <li><a href="#section02" class="nav-c">INTRODUCE</a></li>
+            <li><a href="#section03" class="nav-c">PROGRAM</a></li>
+            <li><a href="#secrion04" class="nav-c">GUIDE</a></li>
+            <li><a href="#section05" class="nav-c">INFO</a></li>
         </ul>
-    </div>
-    <div class="goust-nav">
-
-       
     </div>
 </nav>
 <!-- nav end  -->
@@ -101,6 +98,53 @@
 </section>
 <!-- section02  -->
 <section id="section03">
+    <div class="container-wrap">
+        <div class="wrap">
+            <div class="sec02-title">
+                <h1 class="sec02-main-tit">PROGRAM</h1>
+            </div>
+            </div>
+
+            <div class="sec-03-content-w">
+
+                <div class="sec-03-top-none">
+                <div class="sec-03-con-t">
+                    <img src="img/highlight_pk.png" alt="">
+                    <h1 class="sec-03-con-tit">SPRING</h1>
+                </div>
+                <div class="sec-03-con-sub">
+                    <p class="sec03-t-des">
+                        아침고요수목원의 봄은<br> 노오란 복수초, 히어리, 풍년화가 피어남과 동시에 시작됩니다. 
+                    </p>
+                </div>
+                </div>
+
+                <div class="sec-03-tab-con-w ">
+                    <div class="sec-03-tab-spring">
+                        <ul>
+                            <li><a href="#" class="season-info ">SPRING</a></li>
+                            <li><a href="#" class="season-info">SUMMER</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="sec-03-tab-spring">
+                        <ul>
+                            <li><a href="#" class="season-info">FALL</a></li>
+                            <li><a href="#" class="season-info">WINTER</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            
+            </div>
+            <!-- <div class="sec-03-img-con-w">
+                <div class="sec03-img-content">
+                    <img src="img/spring_1.png" alt="">
+                </div>
+            </div> -->
+            </div>
 
 </section>
 <!-- section03  -->
@@ -135,23 +179,12 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
         <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
         <script>
         new WOW().init();
         AOS.init();
 
-        $(function(){
-            $(window).scroll(function(){
-                if($(this).scrollTop()>400){
-                    $('.nav-c').css('color','black');
-                } else if($(this).scrollTop()>300){
-                    $('.nav-c').css('color','black')
-                }else{
-                    $('.nav-c').css('color','#ffffff')
-                }
-            });
-
-        });
-
+      
     
 
             </script>

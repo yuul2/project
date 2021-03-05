@@ -10,7 +10,7 @@
 .navi{
     position: fixed;
     top: 12%;
-    right: 1.5%;
+    right: 0%;
     z-index: 999;
     }
 
@@ -164,34 +164,62 @@ img{
     float: left;
 }
 
-.clearfix{
-    clear:both;
-}
-/* section2 END */
-
 .display-none{
     display: none;
-}
-.fas{
-    position: fixed;
-    font-size: 2.5rem;
-    bottom: 2%;
-    color: darkgreen;
-    right: 12%;
-}
-.top-btn{
-    position: fixed;
-    bottom: 0%;
-    right: 12.13%;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1rem;
-    font-weight: 800;
 }
 
 /* section02 END */
 
 
+.sec-03-con-tit{
+    font-family: 'Noto Serif', serif;
+    font-size: 3rem;
+    font-weight: 500;
+    /* position: absolute; */
+    
+}
+.sec-03-con-t img{
+    width: 18%;
+    /* position: absolute;
+    top: 24px;  */
+}
+.sec-03-con-t{
+    padding-top: 5%;
+    /* position: relative; */
+}
+.sec-03-con-sub{
+    padding-top: 5%;
+}
+.sec03-t-des{
+   font-family: 'Noto Sans KR', sans-serif;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 3rem;
+}
+.sec-03-tab-spring>ul>li{
+    float: left;
+    text-align: center;
+    padding-right: 20%;
+}
 
+.season-info{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.sec-03-tab-con-w{
+    padding: 16% 0;    
+
+}
+.sec-03-tab-con-w>div{
+    padding: 3% 0;    
+
+}
+
+
+
+/* section03 END */
 
 
 
@@ -209,11 +237,9 @@ img{
         width: 100%;
     }
 }
-@media(max-width:768px){
-
-
+@media(max-width:769px){
     
-   .navi{
+   .navbar{
        display: none;
    }
    .container-none{
@@ -254,18 +280,25 @@ img{
         content: "";
         position: absolute;
        top: 53%;
-        left: 46.5%;
+        left: 47%;
     }
     .display-none{
         display: block;
     }
+    .wrap-float>div{
+        float: none;
+    }
+    .display-none img{
+        width: 100%;
+    }
+
     .none{
         display: none;
     }
 }
 
 
-@media(max-width:540px){
+@media(max-width:541px){
     .logo-img{
         width: 100px;
         top: 5%;
@@ -295,7 +328,7 @@ img{
         padding: 30% 0 12%;
     }
     .sec02-main-tit::after {
-          left: 45%;}
+          left: 45.5%;}
 
  
     
@@ -342,11 +375,11 @@ img{
         left: 7%;
     }
     .event-text{
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-bottom: 25%; 
        }
        .event-date{
-        font-size: 0.8rem;
+        font-size: 12px;
         padding-bottom: 10%;   
        }
 
@@ -366,11 +399,11 @@ img{
     }
     .a-tit{
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .col-50-t{
         text-align: center;
-        font-size: 1rem;
+        font-size: .8rem;
         line-height: 1.2rem;
     }
 
