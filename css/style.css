@@ -175,17 +175,18 @@ img{
     font-family: 'Noto Serif', serif;
     font-size: 3rem;
     font-weight: 500;
-    /* position: absolute; */
+    position: absolute;
     
 }
 .sec-03-con-t img{
     width: 18%;
-    /* position: absolute;
-    top: 24px;  */
+    position: absolute;
+    bottom: -58px;
+    transform: rotate(-3.5deg);
 }
 .sec-03-con-t{
     padding-top: 5%;
-    /* position: relative; */
+    position: relative;
 }
 .sec-03-con-sub{
     padding-top: 5%;
@@ -209,15 +210,25 @@ img{
 }
 
 .sec-03-tab-con-w{
-    padding: 16% 0;    
+    padding-top: 8%;    
 
 }
 .sec-03-tab-con-w>div{
     padding: 3% 0;    
 
 }
-
-
+.col-pk:hover{
+    color:#e55656;
+}
+.col-gn:hover{
+    color:#8fbc73;
+}
+.col-br:hover{
+    color:#bca073;
+}
+.col-gr:hover{
+    color:#b8bbc1;
+}
 
 /* section03 END */
 
